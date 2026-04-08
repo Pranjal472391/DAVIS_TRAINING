@@ -1,0 +1,10 @@
+from numericcalculation import addNumbers,calculateProduct,calculateDifference,calculateDivision
+m = 10
+n = 20
+print("Sum of "m", and "n", "is": ",addNumbers(m,n))
+
+print("Product of "m", and "n", "is": ",calculateProduct(m,n))
+
+print("Diff of "m", and "n", "is": ",calculateDifference(m,n))
+
+print("Division of "m", and "n", "is": ",calculateDivision(m,n))
